@@ -1,0 +1,34 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "item_model": "resin_gun:gun_fire",
+            "custom_model_data": {
+                "strings": [
+                    "fire"
+                ],
+                "floats": [
+                    0
+                ]
+            },
+            "!consumable": {}
+        }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{fire_anim:1b}"
+    },
+    {
+        "function": "set_custom_model_data",
+        "floats": {
+            "mode": "replace_all",
+            "values": [
+                {
+                    "type": "score",
+                    "score": "resin_fire",
+                    "target": "this"
+                }
+            ]
+        }
+    }
+]

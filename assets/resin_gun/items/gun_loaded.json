@@ -1,0 +1,58 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "ground",
+                    "on_shelf"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "resin_gun:item/resin_gun"
+                }
+            },
+            {
+                "when": [
+                    "thirdperson_righthand"
+                ],
+                "model": {
+                    "type": "condition",
+                    "property": "using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "resin_gun:resin_gun"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "resin_gun:resin_gun_charge"
+                    }
+                }
+            },
+            {
+                "when": [
+                    "firstperson_lefthand",
+                    "thirdperson_lefthand"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "resin_gun:resin_gun_lefthand"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+                "type": "model",
+                "model": "resin_gun:resin_gun_fps_nomal"
+            },
+            "on_true": {
+                "type": "model",
+                "model": "resin_gun:resin_gun_charge"
+            }
+        }
+    }
+}

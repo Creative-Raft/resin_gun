@@ -1,0 +1,13 @@
+{
+    "lore.rg.egg":"包含的生物：%s",
+
+    "item.rg.bullet":"树脂弹",
+    "item.rg.egg_1":"小型琥珀",
+    "item.rg.egg_2":"琥珀",
+    "item.rg.egg_3":"大型琥珀",
+    "item.rg.gun":"树脂枪",
+    
+    "lore.rg.flint":"使用打火石熔化琥珀",
+    "lore.rg.gun_1":"长按右键装填树脂弹",
+    "lore.rg.gun_2":"右键发射树脂弹"
+}

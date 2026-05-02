@@ -1,0 +1,10 @@
+modLoader = "lowcodefml"
+loaderVersion = "[25,)"
+license="All Right Reserved"
+[[mods]]
+modId = "resin_gun"
+version = "1.0"
+displayName = "树脂枪"
+description = ""
+logoFile = "pack.png"
+authors = "CR_019, ABraHam_Sid"

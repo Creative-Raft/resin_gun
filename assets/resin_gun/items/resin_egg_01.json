@@ -1,0 +1,22 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "model",
+            "model": "resin_gun:item/resin_egg_01"
+        },
+        "cases": [
+            {
+                "when": [
+                    "none",
+                    "head"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "resin_gun:resin_egg_01"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "item_model": "resin_gun:gun",
+            "custom_model_data": {
+                "strings": [
+                    "empty"
+                ]
+            },
+            "consumable": {
+                "consume_seconds": 1000,
+                "animation": "none",
+                "has_consume_particles": false,
+                "sound": {
+                    "sound_id": "empty"
+                }
+            }
+        }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{fire_anim:0b,reload:0b}"
+    }
+]

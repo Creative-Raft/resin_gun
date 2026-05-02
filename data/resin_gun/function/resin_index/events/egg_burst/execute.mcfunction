@@ -1,0 +1,1 @@
+tag @s add resin_egg_burst

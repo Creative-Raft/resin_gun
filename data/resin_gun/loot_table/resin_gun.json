@@ -1,0 +1,111 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "attribute_modifiers": [
+                                    {
+                                        "type": "entity_interaction_range",
+                                        "id": "resin_gun",
+                                        "amount": -2,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                },
+                                "item_name": {
+                                    "translate": "item.rg.gun"
+                                },
+                                "lore": [
+                                    {
+                                        "translate": "lore.rg.gun_1",
+                                        "italic": false,
+                                        "color": "gray"
+                                    }
+                                ],
+                                "item_model": "resin_gun:gun",
+                                "custom_model_data": {
+                                    "strings": [
+                                        "reload"
+                                    ]
+                                },
+                                "consumable": {
+                                    "consume_seconds": 3.5,
+                                    "animation": "none",
+                                    "has_consume_particles": false,
+                                    "sound": "minecraft:block.honey_block.slide"
+                                },
+                                "use_cooldown": {
+                                    "seconds": 1,
+                                    "cooldown_group": "minecraft:resin_gun"
+                                },
+                                "custom_data": "{id:resin_gun,resin_loaded:0b,reload:0b}",
+                                "max_stack_size": 1,
+                                "use_remainder": {
+                                    "id": "firework_star",
+                                    "components": {
+                                        "attribute_modifiers": [
+                                            {
+                                                "type": "entity_interaction_range",
+                                                "id": "resin_gun",
+                                                "amount": -2,
+                                                "operation": "add_value",
+                                                "slot": "mainhand"
+                                            }
+                                        ],
+                                        "tooltip_display": {
+                                            "hidden_components": [
+                                                "attribute_modifiers"
+                                            ]
+                                        },
+                                        "item_name": {
+                                            "translate": "item.rg.gun"
+                                        },
+                                        "lore": [
+                                            {
+                                                "translate": "lore.rg.gun_2",
+                                                "italic": false,
+                                                "color": "gray"
+                                            }
+                                        ],
+                                        "item_model": "resin_gun:gun_loaded",
+                                        "custom_model_data": {
+                                            "strings": [
+                                                "empty"
+                                            ]
+                                        },
+                                        "consumable": {
+                                            "consume_seconds": 1000,
+                                            "animation": "bow",
+                                            "has_consume_particles": false,
+                                            "sound": {
+                                                "sound_id": "empty"
+                                            }
+                                        },
+                                        "use_cooldown": {
+                                            "seconds": 1,
+                                            "cooldown_group": "minecraft:resin_gun"
+                                        },
+                                        "custom_data": "{id:resin_gun,resin_loaded:1b}",
+                                        "max_stack_size": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

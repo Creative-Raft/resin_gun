@@ -1,0 +1,29 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "item_model": "resin_gun:gun",
+            "custom_model_data": {
+                "strings": [
+                    "reload"
+                ]
+            },
+            "consumable": {
+                "consume_seconds": 3.5,
+                "animation": "crossbow",
+                "has_consume_particles": false,
+                "sound": "minecraft:block.honey_block.slide",
+                "on_consume_effects": [
+                    {
+                        "type": "play_sound",
+                        "sound": "item.crossbow.loading_end"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{fire_anim:0b,reload:1b}"
+    }
+]

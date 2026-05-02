@@ -1,0 +1,2 @@
+execute if data entity @s data.prop.captured_entity run return run function resin_gun:resin_index/events/egg_construct/summon with entity @s data.prop.captured_entity
+execute unless data entity @s data.prop.captured_entity run return run function resin_gun:resin_index/events/egg_construct/save

@@ -1,0 +1,8 @@
+{
+    "values": [
+        "resin_gun:load",
+        "lay:macro/load",
+        "dc:load",
+        "sh:_/load"
+    ]
+}

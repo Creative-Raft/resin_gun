@@ -1,0 +1,16 @@
+{
+    "id": "resin_gun",
+    "version": "1.0",
+    "name": "树脂枪",
+    "description": "",
+    "authors": [
+        "CR_019, ABraHam_Sid"
+    ],
+    "contact": {},
+    "icon": "pack.png",
+    "license": "All Right Reserved",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

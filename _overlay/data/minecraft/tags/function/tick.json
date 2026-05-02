@@ -1,0 +1,7 @@
+{
+    "values": [
+        "dc:main",
+        "resin_gun:tick",
+        "sh:_/tick"
+    ]
+}

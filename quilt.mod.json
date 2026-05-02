@@ -1,0 +1,25 @@
+{
+    "quilt_loader": {
+        "group": "dev.xekr",
+        "id": "resin_gun",
+        "version": "1.0",
+        "metadata": {
+            "name": "树脂枪",
+            "description": "",
+            "contributors": {
+                "CR_019, ABraHam_Sid": ""
+            },
+            "contact": {},
+            "license": "All Right Reserved",
+            "icon": "pack.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            }
+        ]
+    }
+}

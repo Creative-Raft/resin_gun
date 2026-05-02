@@ -1,0 +1,1 @@
+$data modify entity @s Item.components."minecraft:lore" set value [{translate:"lore.rg.egg",with:[{"translate":"entity.minecraft.$(id)"}],color:"gray",italic:false}]

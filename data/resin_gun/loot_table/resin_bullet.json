@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "resin_gun:resin_bullet",
+                                "item_name": {"translate": "item.rg.bullet"},
+                                "custom_data": "{id:resin_bullet}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "lore.rg.egg":"Entity Contained: %s",
+
+    "item.rg.bullet":"Resin Bullet",
+    "item.rg.egg_1":"Small Amber",
+    "item.rg.egg_2":"Amber",
+    "item.rg.egg_3":"Large Amber",
+    "item.rg.gun":"Resin Gun",
+    
+    "lore.rg.flint":"Using Flint and Steel to melt amber",
+    "lore.rg.gun_1":"Long press to load Resin Bullet",
+    "lore.rg.gun_2":"Right click to shoot"
+}

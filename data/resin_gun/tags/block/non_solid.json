@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#air",
+        "water",
+        "lava",
+        "#small_flowers",
+        "snow",
+        "tall_grass",
+        "short_grass",
+        "short_dry_grass",
+        "tall_dry_grass",
+        "fern",
+        "large_fern"
+    ]
+}

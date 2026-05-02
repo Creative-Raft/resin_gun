@@ -1,0 +1,19 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "consumable": {
+                "consume_seconds": 1000,
+                "animation": "bow",
+                "has_consume_particles": false,
+                "sound": {
+                    "sound_id": "empty"
+                }
+            }
+        }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{loaded_disable:1b}"
+    }
+]

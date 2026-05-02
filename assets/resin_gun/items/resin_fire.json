@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "resin_gun:ex/resin_fire/0"
+        },
+        "cases": [
+            {
+                "when": "resin_fire",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "scale": 0.5,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "resin_gun:ex/resin_fire/6"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

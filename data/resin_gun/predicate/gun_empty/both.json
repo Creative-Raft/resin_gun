@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "resin_gun:gun_empty/main"
+        },
+        {
+            "condition": "reference",
+            "name": "resin_gun:gun_empty/off"
+        }
+    ]
+}

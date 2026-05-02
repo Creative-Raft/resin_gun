@@ -1,0 +1,1 @@
+title @n[tag=dc_click_temp,type=player] actionbar {"translate":"lore.rg.flint"}

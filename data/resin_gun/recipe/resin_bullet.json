@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "glass_bottle",
+        "resin_clump"
+    ],
+    "result": {
+        "id": "firework_star",
+        "components": {
+            "item_model": "resin_gun:resin_bullet",
+            "item_name": {
+                "translate": "item.rg.bullet"
+            },
+            "custom_data": "{id:resin_bullet}"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#resin_gun:large_mobs",
+        "#resin_gun:mid_mobs",
+        "#resin_gun:small_mobs",
+        "#resin_gun:non_capture_mobs"
+    ]
+}

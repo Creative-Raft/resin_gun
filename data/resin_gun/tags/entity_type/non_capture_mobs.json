@@ -1,0 +1,16 @@
+{
+    "values": [
+        "player",
+        "happy_ghast",
+        {"required": false,"id": "sulfur_cube"},
+        "ghast",
+        "slime",
+        "magma_cube",
+        "warden",
+        "wither",
+        "ender_dragon",
+        "giant",
+        "blaze",
+        "creaking"
+    ]
+}
