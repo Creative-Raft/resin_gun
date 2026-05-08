@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{id:\"resin_gun:resin_gun\",resin_loaded:0b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "resin_gun:load_resin"
+    }
+}
