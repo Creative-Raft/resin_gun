@@ -1,0 +1,7 @@
+dependencies {
+    compileOnly libs.jsr305
+    compileOnly libs.jeiApi
+    runtimeOnly libs.jei
+
+    implementation(libs.bundles.anvil.resource)
+}

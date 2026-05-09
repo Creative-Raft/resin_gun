@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "min_format": 88,
+    "max_format": 1000,
+    "description": "MADE BY CR-019 & ABraHam_Sid"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "dc_v2.1.3",
+        "min_format": 88,
+        "max_format": 1000
+      },
+      {
+        "directory": "sequncer_helper",
+        "min_format": 88,
+        "max_format": 1000
+      },
+      {
+        "directory": "_overlay",
+        "min_format": 88,
+        "max_format": 1000
+      }
+    ]
+  }
+}

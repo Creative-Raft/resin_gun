@@ -1,0 +1,19 @@
+{
+  "location": "resin_gun:main",
+  "name": {
+    "translate": "item.rg.gun"
+  },
+  "icon": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:item_model": "resin_gun:gun_loaded"
+    }
+  },
+  "include": [
+    "resin_gun:resin_gun*",
+    "resin_gun:resin_bullet"
+  ],
+  "sort": [
+    "resin_gun:*"
+  ]
+}
