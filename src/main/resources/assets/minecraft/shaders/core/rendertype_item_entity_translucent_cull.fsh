@@ -13,7 +13,6 @@ in vec4 vertexColorNoShadow;
 in vec4 vertexColorEmissive;
 in vec2 texCoord0;
 in vec2 texCoord1;
-in vec4 aColor;
 
 out vec4 fragColor;
 
